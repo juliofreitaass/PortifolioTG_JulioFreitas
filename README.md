@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este trabalho apresenta a trajetória de desenvolvimento de projetos integradores ao longo do curso Superior de Tecnologia em Banco de Dados – FATEC, evidenciando a aplicação prática dos conhecimentos adquiridos. Será descrito o perfil do aluno, suas principais competências técnicas em Banco de Dados e áreas afins, e uma síntese dos projetos desenvolvidos em cada semestre do curso. Cada projeto é detalhado com contexto, objetivos, funcionalidades implementadas, tecnologias utilizadas, bem como as contribuições pessoais do aluno em cada caso. O último projeto – denominado Stratify – corresponde ao Trabalho de Graduação (TG) e será descrito de forma mais abrangente por sua importância e complexidade no fechamento do curso.
+Este trabalho apresenta a trajetória de desenvolvimento de projetos integradores ao longo do curso Superior de Tecnologia em Banco de Dados – FATEC, evidenciando a aplicação prática dos conhecimentos adquiridos. Será descrito o perfil do aluno, suas principais competências técnicas em Banco de Dados e áreas afins, e uma síntese dos projetos desenvolvidos em cada semestre do curso. Cada projeto é detalhado com contexto, objetivos, funcionalidades implementadas, tecnologias utilizadas, bem como as contribuições pessoais do aluno em cada caso. O projeto Stratify corresponde ao Trabalho de Graduação (TG) e é descrito de forma mais abrangente por sua importância e complexidade no fechamento do curso. Além disso, inclui-se o Projeto 6 (Pardal), que reforça experiência em Product Ownership e aplicação prática de LGPD como requisito de produto.
 
 ## Perfil
 
@@ -42,7 +42,7 @@ O aluno desenvolveu um conjunto sólido de habilidades técnicas e teóricas ao 
 
 **Link:** Repositório GitHub – `wiz-fatec/avaliacao-360`.
 
-**Contribuições Pessoais:** Atuando como Desenvolvedor Backend, Julio Freitas foi responsável por implementar funcionalidades críticas do lado do servidor. Ele desenvolveu a lógica de consolidação dos dados de avaliação, garantindo o cálculo correto de métricas (médias ponderadas de notas, percentuais) e a anonimização dos feedbacks antes da visualização pelos avaliados. Além disso, contribuiu significativamente na criação do dashboard administrativo, programando gráficos e relatórios gerenciais (referência: github.com). Julio também integrou o sistema de autenticação e controle de permissões, assegurando que cada gestor pudesse ver relatórios apenas de sua equipe. Seu trabalho envolveu interação constante com o banco de dados (consultas SQL otimizadas para extrair agregados de avaliação) e integração com o front-end para exibir os resultados de forma amigável. Ademais, participou dos testes funcionais, validando que o fluxo de avaliação 360° estava consistente com os requisitos do projeto.
+**Contribuições Pessoais:** Atuando como Desenvolvedor Backend, Julio Freitas foi responsável por implementar funcionalidades críticas do lado do servidor. Ele desenvolveu a lógica de consolidação dos dados de avaliação, garantindo o cálculo correto de métricas (médias ponderadas de notas, percentuais) e a anonimização dos feedbacks antes da visualização pelos avaliados. Além disso, contribuiu significativamente na criação do dashboard administrativo, programando gráficos e relatórios gerenciais. Julio também integrou o sistema de autenticação e controle de permissões, assegurando que cada gestor pudesse ver relatórios apenas de sua equipe. Seu trabalho envolveu interação constante com o banco de dados (consultas SQL otimizadas para extrair agregados de avaliação) e integração com o front-end para exibir os resultados de forma amigável. Ademais, participou dos testes funcionais, validando que o fluxo de avaliação 360° estava consistente com os requisitos do projeto.
 
 ---
 
@@ -52,21 +52,21 @@ O aluno desenvolveu um conjunto sólido de habilidades técnicas e teóricas ao 
 
 **Problema:** A coordenação enfrentava dificuldades para compilar e acompanhar os resultados das avaliações dos Trabalhos de Graduação (TG) dos alunos. As notas e feedbacks dos projetos finais eram coletados via formulários separados, tornando complexo o gerenciamento das entregas parciais e a identificação de alunos aptos à defesa. Havia necessidade de organizar essas informações de modo centralizado, facilitando a atribuição de notas pelos professores orientadores e avaliadores, além de gerar relatórios para tomada de decisão sobre aprovações.
 
-**Objetivo:** Desenvolver uma API e aplicação backend que importe os dados de avaliações de TG a partir de um arquivo CSV e auxilie na gestão do processo de Trabalho de Graduação (referência: github.com). A solução objetiva facilitar a visualização dos dados de avaliação e permitir a inclusão de notas e feedbacks pelos professores de forma estruturada (referência: github.com). Espera-se também automatizar o agendamento das etapas de entrega e apresentação do TG, definindo quantas entregas parciais haverá e calculando médias de notas conforme essas etapas. Por fim, a ferramenta deve gerar relatórios consolidados para a coordenação, indicando, por exemplo, quais alunos estão aptos a defender o TG e quais informações devem ser repassadas à banca examinadora.
+**Objetivo:** Desenvolver uma API e aplicação backend que importe os dados de avaliações de TG a partir de um arquivo CSV e auxilie na gestão do processo de Trabalho de Graduação. A solução objetiva facilitar a visualização dos dados de avaliação e permitir a inclusão de notas e feedbacks pelos professores de forma estruturada. Espera-se também automatizar o agendamento das etapas de entrega e apresentação do TG, definindo quantas entregas parciais haverá e calculando médias de notas conforme essas etapas. Por fim, a ferramenta deve gerar relatórios consolidados para a coordenação, indicando, por exemplo, quais alunos estão aptos a defender o TG e quais informações devem ser repassadas à banca examinadora.
 
 **Funcionalidades:** A aplicação TG Manager contempla diversas funcionalidades alinhadas aos objetivos propostos:
 
-- **Importação de CSV:** Upload de um arquivo “.csv” contendo as respostas de formulários preenchidos pelos alunos sobre seus TGs, populando automaticamente o sistema com esses dados brutos (referência: github.com).
-- **Gerenciamento de Entregas:** Configuração do número de entregas parciais que compõem o TG e agendamento das datas correspondentes, permitindo controlar prazos e etapas do projeto (referência: github.com).
-- **Atribuição de Notas e Feedbacks:** Interface para que professores insiram nota e feedback qualitativo para cada aluno em cada entrega/apresentação realizada (referência: github.com). A aplicação armazena esses inputs, possibilitando o acompanhamento da evolução de cada projeto.
-- **Cálculo de Médias:** Cálculo automático da média final de cada aluno com base nas notas das várias entregas definidas, seguindo a regra de negócio (por exemplo, média aritmética ou ponderada das notas das etapas) (referência: github.com).
-- **Relatórios Automatizados:** Geração de diversos relatórios em formato visual e textual. Dentre eles: relatório individual de cada aluno (compilando todos os feedbacks e notas recebidas), relatório geral de todos os alunos (lista completa com suas médias finais) e um relatório específico listando alunos aptos a defesa – aqueles que atingiram nota mínima para aprovação – incluindo informações de seus orientadores (referências: github.com / github.com). Esses relatórios visam apoiar a coordenação na organização das bancas finais e na comunicação de resultados.
+- **Importação de CSV:** Upload de um arquivo “.csv” contendo as respostas de formulários preenchidos pelos alunos sobre seus TGs, populando automaticamente o sistema com esses dados brutos.
+- **Gerenciamento de Entregas:** Configuração do número de entregas parciais que compõem o TG e agendamento das datas correspondentes, permitindo controlar prazos e etapas do projeto.
+- **Atribuição de Notas e Feedbacks:** Interface para que professores insiram nota e feedback qualitativo para cada aluno em cada entrega/apresentação realizada.
+- **Cálculo de Médias:** Cálculo automático da média final de cada aluno com base nas notas das várias entregas definidas, seguindo regra de negócio (média aritmética ou ponderada).
+- **Relatórios Automatizados:** Relatório individual do aluno, relatório geral da turma e relatório de alunos aptos à defesa, incluindo dados como orientador e média final.
 
-**Tecnologias:** O TG Manager foi implementado em Java (utilizando princípios de API REST). O projeto fez uso do framework Spring Boot para agilizar a criação dos serviços backend, dada sua robustez em aplicações corporativas Java. Para persistência de dados, optou-se por um banco relacional (PostgreSQL) devido à necessidade de consistência e facilidade em manipular dados tabulares vindos do CSV. A leitura e parsing do arquivo CSV foram feitos com bibliotecas Java, convertendo as linhas em registros no banco. A aplicação seguiu arquitetura em camadas (controladores REST, serviços de negócio e repositórios de dados). Testes unitários e de integração foram conduzidos para garantir a correta importação e processamento dos dados. O repositório de código está disponível no GitHub sob a organização wiz-fatec (nome do repositório: api-2BD).
+**Tecnologias:** Implementado em Java com Spring Boot (API REST), persistência em PostgreSQL, arquitetura em camadas (controllers/services/repositories), parsing de CSV com bibliotecas Java, testes unitários e de integração. Repositório sob organização wiz-fatec (api-2BD).
 
-**Link:** Repositório GitHub – `wiz-fatec/api-2BD` (TG Manager) (referência: github.com).
+**Link:** Repositório GitHub – `wiz-fatec/api-2BD` (TG Manager).
 
-**Contribuições Pessoais:** Atuando novamente como Desenvolvedor Backend, Julio Freitas contribuiu ativamente em diversas partes do TG Manager. Ele foi responsável pela implementação do módulo de importação de CSV, lidando com a leitura dos arquivos de entrada, tratamento de erros de formato e inserção dos dados no banco de forma consistente. Com isso, facilitou o carregamento inicial das avaliações no sistema (referência: github.com). Julio também desenvolveu endpoints RESTful para cadastro de entregas e agendamento das datas, bem como para registrar notas e feedbacks por meio de requisições HTTP seguras. Implementou as regras de negócio de cálculo da média final de cada aluno, garantindo que o sistema identificasse corretamente os alunos aprovados para a defesa. Ademais, colaborou na geração dos relatórios automáticos: participou da lógica de seleção e agregação dos dados necessários para compor os relatórios de cada aluno e gerais, inclusive o relatório de alunos aptos à defesa (referências: github.com / github.com). Durante o desenvolvimento, Julio preocupou-se com a qualidade do código, adicionando logs úteis e tratando exceções para manter a aplicação confiável (há evidências de commits removendo logs inúteis e corrigindo bugs para estabilidade). Ele interagiu de perto com os demais membros da equipe, revisando código e sugerindo melhorias (por exemplo, otimização de consultas SQL e refinamento do modelo de dados para melhor adequação aos relatórios exigidos). Sua contribuição foi fundamental para que a API estivesse consistente com as necessidades da coordenação do curso, agilizando significativamente o processo de avaliação dos TGs.
+**Contribuições Pessoais:** Como Desenvolvedor Backend, Julio Freitas implementou o módulo de importação de CSV (leitura, validações, tratamento de erros e persistência). Também criou endpoints para cadastro de entregas e registro de notas/feedbacks, além das regras de negócio para cálculo de média e identificação de aprovados. Participou da lógica de geração dos relatórios e apoiou qualidade do código (tratamento de exceções, ajustes e estabilidade), interagindo com o time em revisões e melhorias no modelo/consultas.
 
 ---
 
@@ -74,47 +74,47 @@ O aluno desenvolveu um conjunto sólido de habilidades técnicas e teóricas ao 
 
 **Empresa/Cliente:** Dom Rock Enterprise (parceira acadêmica) – empresa da área de Big Data e Inteligência Artificial.
 
-**Problema:** Empresas que trabalham com grandes volumes de dados frequentemente enfrentam desafios na configuração e automação de seus pipelines de dados. O processo tradicional de criar pipelines (ETL/ELT) pode demandar especialistas e muito esforço manual, desde a captura de dados até a visualização dos resultados. A Dom Rock identificou a oportunidade de facilitar esse processo por meio de uma ferramenta que permitisse configurar pipelines de dados de forma gráfica e intuitiva, sem necessidade de programação extensa ou intervenção de um engenheiro de dados a cada alteração. O projeto acadêmico visa simular essa demanda real: tornar a montagem de fluxos de dados algo fácil e rápido, diminuindo o tempo entre o dado bruto e a geração de valor de negócio.
+**Problema:** A criação e manutenção de pipelines de dados (ETL/ELT) costuma exigir esforço manual, especialistas e tempo. A demanda simulada do projeto foi reduzir atrito, permitindo configurar pipelines de forma visual, rápida e padronizada, diminuindo o tempo entre dado bruto e geração de valor.
 
-**Objetivo:** Desenvolver uma aplicação (interface web) que funcionasse como um configurador de pipelines de dados da plataforma Dom Rock. Em essência, a ferramenta deveria possibilitar que usuários (analistas de negócio, cientistas de dados ou engenheiros de dados) definissem fontes de dados, transformações e destinos de forma visual, gerando por trás as configurações necessárias para execução automatizada do pipeline. Assim, buscou-se agilizar o desenvolvimento de pipelines automatizados conforme a demanda de cada negócio, alinhado à metodologia Setup & Run da Dom Rock (referência: domrock.net). Em termos acadêmicos, o objetivo incluiu aplicar conceitos de integração de dados, Data Lake e orquestração de processos de forma prática.
+**Objetivo:** Desenvolver uma aplicação web para configurar pipelines de dados da plataforma Dom Rock, permitindo definir fontes, transformações e destinos por UI (arrastar-e-soltar), gerando configurações para execução automatizada, alinhado à abordagem Setup & Run.
 
-**Funcionalidades:** O Dom Rock Pipeline Configurator incorporou diversas funcionalidades para atender ao objetivo de simplificar a criação de pipelines de dados:
+**Funcionalidades:**
 
-- **Catálogo de Fontes e Destinos:** Módulo para cadastrar e visualizar fontes de dados (e.g., arquivos CSV, bancos de dados, APIs) e destinos possíveis (como tabelas em Data Lake ou dashboards de BI). Os usuários podiam selecionar a fonte desejada para iniciar um pipeline.
-- **Configuração de Pipeline via UI:** Interface gráfica onde o usuário “monta” o fluxo de dados, arrastando componentes que representem etapas como Extração, Transformação e Carga, e encadeando-os na sequência lógica desejada. Para cada etapa, era possível configurar parâmetros (p. ex., consultas SQL na extração, regras de transformação, mapeamento de campos).
-- **Componentes Pré-definidos:** Biblioteca de componentes de transformação prontos (filtros, agregações, junções de dados, limpeza de dados, etc.), que podiam ser incluídos no pipeline com poucos cliques.
-- **Validação e Deploy Automatizado:** Ao finalizar o desenho do pipeline, a ferramenta valida a consistência (por exemplo, verifica se todas as etapas estão conectadas e configuradas) e então gera um arquivo de configuração ou script executável pela plataforma Dom Rock. O usuário pode então implantar (deploy) esse pipeline com um botão.
-- **Visualização de Execução:** Painel de acompanhamento para pipelines implantados, exibindo status (em execução, concluído, falhou), volume de dados processados e possíveis logs de erro.
+- Catálogo de fontes e destinos (CSV, banco, APIs; Data Lake/BI).
+- Editor visual de pipeline (componentes encadeados por etapas).
+- Biblioteca de transformações (filtros, agregações, joins, limpeza).
+- Validação e geração de configuração/deploy automatizado.
+- Monitoramento de execução (status, volume, logs).
 
-**Tecnologias:** A solução foi desenvolvida com foco em JavaScript. No front-end, utilizou-se Vue.js para criar a interface de arrastar-e-soltar dos componentes do pipeline. No back-end, optou-se por Node.js com framework Express, implementando APIs que conversavam com serviços simulados da Dom Rock. Também foram empregadas tecnologias como MongoDB para armazenar temporariamente as configurações de pipeline montadas (documentos JSON). O ambiente de desenvolvimento foi conteinerizado com Docker, e todo o versionamento e gerenciamento de issues se deu via GitHub (organização wiz-fatec).
+**Tecnologias:** Front-end em Vue.js; back-end em Node.js (Express); armazenamento das configurações em MongoDB; Docker para ambiente; GitHub para versionamento e issues.
 
 **Link:** Repositório GitHub – `wiz-fatec/dom-rock-pipeline-configurator`.
 
-**Contribuições Pessoais:** Neste projeto, Julio Freitas atuou como Product Owner, liderando a equipe multidisciplinar de desenvolvedores. Ele foi responsável por traduzir as necessidades da Dom Rock em requisitos claros para o time, elaborando o Backlog do Produto e priorizando as entregas em sprints. Julio conduziu reuniões de planejamento, definiu as user stories e garantiu critérios de aceitação claros. Além da gestão, participou das decisões técnicas: influenciou na escolha do stack tecnológico e validou a arquitetura proposta. Durante o desenvolvimento, revisou as funcionalidades entregues, assegurando que a interface fosse intuitiva e cumprisse o propósito de simplificar a criação de pipelines de dados. A expertise de Julio na área de dados foi útil para orientar a implementação de componentes de transformação comuns, alinhados às práticas de ETL. Ele não realizou muitos commits de código diretamente (focando seu papel em gestão), mas efetuou merges de contribuições e cuidou da qualidade geral do projeto. Suas contribuições pessoais incluem também o contato simulado com a “cliente” Dom Rock, providenciando feedbacks rápidos para ajustes de usabilidade. Ao final, foi possível demonstrar um pipeline sendo configurado rapidamente, evidenciando o ganho de agilidade que a ferramenta proporciona, em linha com a abordagem Setup & Run (referência: domrock.net). A entrega foi considerada um sucesso dentro do contexto acadêmico e demonstrou as habilidades de Julio em gerência de projetos ágeis e visão de produto.
+**Contribuições Pessoais:** Julio Freitas atuou como Product Owner, traduzindo necessidades em backlog, priorizando entregas por sprint e definindo user stories/aceites. Participou das decisões técnicas (stack e arquitetura) e validou a usabilidade do configurador. Realizou merges, reviews e conduziu alinhamentos com “cliente” (simulado), garantindo foco em valor e entrega demonstrável.
 
 ---
 
 ## Projeto 4: GEO-IOT
 
-**Empresa/Cliente:** Projeto interno acadêmico em parceria com laboratório de IoT (Internet das Coisas) – FATEC Manolito (projeto interdisciplinar).
+**Empresa/Cliente:** Projeto interno acadêmico em parceria com laboratório de IoT – FATEC Manolito (interdisciplinar).
 
-**Problema:** Em muitas aplicações de IoT, sensores espalhados geograficamente transmitem dados que precisam ser coletados, integrados e visualizados em tempo real. O desafio está em localizar esses dispositivos no mapa e monitorar as leituras de forma centralizada. Sem uma plataforma adequada, seria difícil acompanhar posição e estado de cada dispositivo. O projeto GEO-IOT surgiu para endereçar essa demanda: integrar dados geográficos e de IoT para visualizar dispositivos e suas medições em tempo real. No ambiente acadêmico, o problema se traduz na necessidade de combinar conhecimentos de banco de dados geográficos, interfaces web e protocolos de IoT para criar uma solução funcional.
+**Problema:** Monitorar sensores distribuídos geograficamente exige coleta, integração e visualização dos dados em tempo real, com localização em mapa e histórico. Sem uma plataforma, acompanhar posição, status e leituras se torna inviável.
 
-**Objetivo:** Construir uma aplicação web que permita gerenciar dispositivos IoT com posicionamento geográfico, monitorando suas informações em tempo real. O sistema deveria permitir cadastro de dispositivos (latitude/longitude) e plotagem em mapa interativo, além de receber periodicamente dados desses dispositivos e exibir atualizações ao usuário. Também estava em escopo implementar alertas/indicadores quando algum valor atingir limiar (ex.: temperatura alta disparando alerta visual no mapa).
+**Objetivo:** Criar aplicação web para cadastro de dispositivos IoT com coordenadas, visualização em mapa e atualização em tempo real das leituras, com alertas e histórico analítico.
 
-**Funcionalidades:** O projeto GEO-IOT agregou funcionalidades que integraram geolocalização e IoT de forma eficiente:
+**Funcionalidades:**
 
-- **Cadastro e Geolocalização de Dispositivos:** Registro de dispositivos com coordenadas e exibição em mapa interativo (Google Maps/Leaflet).
-- **Recepção de Dados em Tempo Real:** Backend para receber mensagens via protocolos típicos (MQTT/HTTP), armazenando leituras por dispositivo e hora.
-- **Dashboard Geográfico:** Mapa integrado a painel de dados; ao clicar, exibe últimos valores e status por cor.
-- **Alertas e Notificações:** Configuração de limites e destaque visual quando valores saem do intervalo.
-- **Relatórios e Histórico:** Consulta de histórico por período, com visualização em gráfico/tabela.
+- Cadastro de dispositivos com latitude/longitude e exibição em mapa.
+- Recepção de dados em tempo real via MQTT/HTTP e persistência com timestamp.
+- Painel geográfico: clique no dispositivo → últimos dados e status.
+- Alertas por limites (mudança de cor/realce e notificação).
+- Histórico e relatórios por dispositivo (tabela/gráfico por período).
 
-**Technologias:** Projeto full-stack. Front-end em Vue.js com integração de mapa via Mapbox/Leaflet. Back-end em Node.js (Express), servindo APIs REST e websockets para atualização em tempo real. Dispositivos simulados publicando via MQTT (scripts Python) em um broker; servidor Node subscrevendo e persistindo no banco. Banco de dados: MongoDB (documentos JSON com campos geoespaciais e índices geográficos). Projeto hospedado no GitHub (organização manolito-fatec), com Docker para padronizar ambiente (containers: Node.js, broker MQTT e MongoDB).
+**Technologias:** Front-end em Vue.js + Mapbox/Leaflet; back-end Node.js (Express) + websockets; broker MQTT e sensores simulados em Python; MongoDB com suporte geoespacial; Docker para ambiente com múltiplos serviços.
 
 **Link:** Repositório GitHub – `manolito-fatec/geo-iot-2024-1`.
 
-**Contribuições Pessoais:** Julio Freitas assumiu a função de Product Owner, coordenando uma equipe com desenvolvimento e IoT/hardware. Elaborou o plano do projeto alinhando objetivos e definiu escopo priorizando entregas de maior valor para demonstração (cadastro geográfico, mapa em tempo real, alertas). Apoiou decisões tecnológicas (uso de MQTT para simulação mais realista). Conduziu ritos ágeis (dailies, reviews), removeu impedimentos e realizou testes exploratórios como usuário final, validando integração entre frontend, backend e sensores simulados. Também colaborou na documentação (setup e execução) para facilitar reprodução e apresentação. Ao final, o GEO-IOT foi demonstrado em operação: sensores reportando dados que apareciam instantaneamente no mapa, evidenciando integração bem-sucedida e capacidade de coordenação em projeto multi-tecnologia (IoT, GIS e tempo real).
+**Contribuições Pessoais:** Julio Freitas atuou como Product Owner, definindo escopo, priorizando funcionalidades de maior valor demonstrável e coordenando integração entre mapa, backend, broker MQTT e sensores simulados. Conduziu ritos ágeis, removeu impedimentos, testou o sistema ponta a ponta como usuário final e apoiou documentação de execução para apresentação.
 
 ---
 
@@ -122,59 +122,60 @@ O aluno desenvolveu um conjunto sólido de habilidades técnicas e teóricas ao 
 
 **Empresa/Cliente:** Projeto autoral (Trabalho de Graduação) – foco em inteligência de dados para tomada de decisão empresarial.
 
-**Problema:** Organizações modernas acumulam volumes massivos de dados, mas ainda enfrentam o desafio de extrair valor estratégico. Em marketing e negócios, existe demanda por segmentar (estratificar) bases grandes de clientes/produtos/operações em grupos significativos para direcionar ações específicas. Métodos tradicionais podem ser manuais e lentos (planilhas, regras estáticas), suscetíveis a erros e incapazes de capturar correlações complexas. Identificou-se a necessidade de uma ferramenta que automatize a estratificação aplicando técnicas de inteligência de dados (clusterização, estatística e aprendizado de máquina) e apresente resultados compreensíveis para gestores. Em resumo: como transformar dados brutos e heterogêneos em segmentos úteis para decisões?
+**Problema:** Organizações acumulam dados, mas ainda sofrem para transformar isso em segmentação útil. A estratificação manual (planilhas/regras ad hoc) é lenta, falha e não captura padrões complexos. A necessidade central foi automatizar segmentação e entregar resultados interpretáveis para negócio.
 
-**Objetivo:** Desenvolver uma API Backend robusta para segmentação de dados, integrável a diferentes front-ends e sistemas corporativos. Objetivos específicos:
+**Objetivo:** Desenvolver uma API Backend para segmentação/estratificação de dados, integrável a diferentes front-ends/sistemas, com processamento de datasets heterogêneos, execução de algoritmos de clusterização (ex.: K-Means, DBSCAN, hierárquico) e/ou regras de negócio, entrega de métricas e exportações (JSON/CSV), e reprocessamento com novos dados.
 
-- Ingerir e tratar conjuntos de dados heterogêneos (ex.: clientes com idade, renda, histórico de compras, interações etc.).
-- Aplicar algoritmos de estratificação (K-Means, DBSCAN, métodos hierárquicos) ou regras de negócio (faixas, condições).
-- Fornecer métricas e insights sobre segmentos (quantidade, perfil médio, estatísticas como média/mediana/distribuições).
-- Expor resultados via endpoints RESTful seguros, com exportação (JSON/CSV) para integração com BI.
-- Automatizar atualização das segmentações quando novos dados forem inseridos (uso contínuo, dataset dinâmico).
+**Funcionalidades:**
 
-Em síntese, o Stratify é um “motor de segmentação de dados”, consolidando conhecimentos de banco de dados, backend e análise de dados adquiridos no curso.
+- Upload de dataset e schema configurável.
+- Trigger de estratificação com parâmetros (algoritmo, `k`, regras).
+- Monitoramento assíncrono por `process_id` e status.
+- Resultados por segmento (tamanho, centroides/descrição, métricas).
+- Export da base com coluna de segmento por registro.
+- Histórico e comparação de segmentações.
+- Segurança (JWT) e isolamento por cliente (multi-tenant).
 
-**Funcionalidades:** Sendo uma solução focada em backend (API), as funcionalidades se concentram em processamento e disponibilização de dados estratificados:
+**Tecnologias:** Python + FastAPI; pandas/numpy/scikit-learn; PostgreSQL (metadados/resultados) + MongoDB (dados brutos); Celery + Redis (tarefas); Apache Spark (opcional p/ volume); Docker/Compose; OpenAPI/Swagger; CI no GitHub.
 
-- **Upload de Dataset & Schema Configurável:** Endpoint para envio de dataset (CSV/JSON) com metadados de esquema (colunas e tipos). Validação de consistência e tratamento básico de valores ausentes.
-- **Trigger de Estratificação:** Endpoint para iniciar estratificação com parâmetros (algoritmo, número de clusters `k`, regras/limiares de segmentação).
-- **Monitoramento de Processo:** Retorno de um `process_id` e consulta de status (pendente, processando, concluído, falhou), via endpoint e/ou webhook.
-- **Resultado de Segmentação:** Endpoints de consulta dos resultados:
-  - Lista de segmentos (id e tamanho).
-  - Centroides/descrição do segmento (ou critérios de regras).
-  - Métricas por segmento (estatísticas e indicadores).
-  - Associação de cada registro a um segmento (inclui exportação com coluna `segmento`).
-- **Histórico e Comparação:** Armazenamento de versões e comparação de segmentações (mudanças por novos dados/novos parâmetros).
-- **Segurança e Multi-tenant:** Autenticação e isolamento por usuário/empresa.
+**Link:** GitHub – `QuantumBitBR/API_5SEM` e `QuantumBitBR/API_5SEM_BACK`.
 
-**Tecnologias:** O Stratify foi desenvolvido com foco em performance e capacidade de lidar com dados consideráveis.
-
-- **Backend:** Python + FastAPI (API REST e regras de negócio).
-- **Processamento/ML:** pandas, numpy, scikit-learn.
-- **Persistência:** PostgreSQL (metadados/configurações/resultados agregados) + MongoDB (dados brutos/intermediários).
-- **Escalabilidade (opcional):** Apache Spark (modo standalone) para datasets grandes.
-- **Assíncrono:** Celery + Redis (fila e execução de tarefas).
-- **Segurança:** JWT (autenticação).
-- **Infra:** Docker + Docker Compose.
-- **Doc:** OpenAPI/Swagger do FastAPI.
-- **Versionamento/CI:** GitHub (organização QuantumBitBR).
-
-**Link:** Repositórios GitHub – `QuantumBitBR/API_5SEM` (documentação/configuração) e `QuantumBitBR/API_5SEM_BACK` (código fonte do backend Stratify).
-
-**Contribuições Pessoais:** Julio Freitas foi Desenvolvedor Backend líder no projeto Stratify, sendo o principal responsável pelo core do sistema de segmentação de dados. Principais contribuições:
-
-- **Arquitetura do Sistema:** Desenho de arquitetura em camadas (ingestão, processamento e exposição de resultados), com separação modular para facilitar testes e evolução.
-- **Implementação de Algoritmos:** Integração do scikit-learn, execução dinâmica de K-Means conforme parâmetros, otimização de pré-processamento (normalização, outliers), uso de K-Means++ e critérios de parada, além de métricas como *silhouette score* para apoiar escolha de `k`.
-- **Endpoints RESTful:** Upload de dataset, trigger de segmentação, paginação/filtros na consulta, tratamento robusto de erros e retornos REST adequados.
-- **Assíncrono e Escalabilidade:** Configuração do Celery e criação de tarefas assíncronas para execução dos algoritmos, com retorno imediato de `process_id` e endpoints de status; testes de estresse com múltiplas segmentações.
-- **Integração com Bancos:** Modelagem no PostgreSQL (usuários, datasets, resultados agregados) e estratégia no MongoDB (dados brutos), otimizando consultas com projeções e seleção de campos.
-- **Segurança e Deploy:** JWT, boas práticas (hash de senha, CORS), Docker/Compose e variáveis de ambiente para integração de serviços e reprodução do ambiente.
-- **Testes e Documentação:** Testes unitários e integrados (fluxo completo upload → segmentação → consulta), CI no GitHub e documentação (README, exemplos de request/response, relato técnico de decisões e resultados).
-
-Como demonstração de resultado, foram realizados experimentos com dados reais de exemplo (ex.: dataset público de clientes), produzindo segmentos coerentes (ex.: “clientes ocasionais de baixo gasto”, “clientes fiéis de alto valor”), úteis para marketing e estratégia. A API mostrou capacidade de recomputar segmentos após inserção de novos dados, atendendo aos objetivos de automação.
+**Contribuições Pessoais:** Julio Freitas liderou o backend, desenhando arquitetura modular (ingestão/processamento/resultados), implementando algoritmos (K-Means com pré-processamento e métricas como silhouette), criando endpoints REST com paginação e erros claros, configurando processamento assíncrono com Celery/Redis, integrando PostgreSQL/MongoDB com otimizações e implementando JWT e infraestrutura via Docker/Compose. Também estruturou testes e documentação técnica (README e especificação de endpoints).
 
 ---
 
-## Fonte dos Dados dos Projetos
+## Projeto 6: Pardal (6º semestre) — Gestão de Tickets + LGPD como Produto
 
-As informações apresentadas sobre cada projeto foram baseadas nos repositórios de código correspondentes no GitHub e em documentos fornecidos pelas equipes de desenvolvimento. Em especial, detalhes do TG Manager foram extraídos do README oficial do projeto (referência: github.com / github.com), e conceitos relacionados ao Dom Rock Pipeline foram fundamentados em materiais da plataforma Dom Rock (referência: domrock.net). Esses projetos acadêmicos refletem cenários reais, combinando aprendizado teórico e aplicação prática, mostrando a evolução do aluno de tarefas mais simples de desenvolvimento para a integração de soluções complexas e focadas em inteligência de dados no Trabalho de Graduação.
+**Empresa/Cliente:** Cliente parceiro do projeto integrador (contexto acadêmico) com operação de suporte/tickets.
+
+**Problema:** O cliente enfrentava controle manual de tickets em base legada, ausência de histórico consolidado e falta de indicadores de performance para apoiar decisões. Além disso, existia risco real de armazenamento indevido de dados pessoais/sensíveis (especialmente em campos de texto livre), exigindo conformidade prática com LGPD.
+
+**Objetivo:** Centralizar e otimizar um sistema de gestão de tickets de suporte, elevando organização, tempo de resposta e visibilidade operacional, ao mesmo tempo em que o produto incorpora LGPD como requisito central (não “checklist”), reduzindo risco de persistir dados pessoais/sensíveis e melhorando governança e transparência do processo.
+
+**Funcionalidades (principais épicos e entregas):**
+
+- **LGPD Modernization (Admin):** identificação e **anonimização automática** de dados pessoais e sensíveis em campos de texto livre (título/descrição/comentários). Uso de **Regex** para dados estruturados (ex.: CPF, e-mail, telefone) e integração com serviço **NLP** para análise semântica de sensíveis (ex.: saúde, religião, opinião política).
+- **Insights (Gestão):** componente analítico que gera insights automaticamente (padrões de recorrência, categorias críticas e aderência a SLA), apoiando decisão e eficiência.
+- **Dashboards (Gestão):** indicadores (KPIs) como total de tickets, tempo médio de resolução, recorrência e SLA, com filtros por período, agente, empresa, categoria e prioridade.
+- **User Management (Admin):** gestão de usuários (criar/editar/desativar e perfis/roles) para controle de acesso.
+- **Ticket Search (Operação):** busca avançada com filtros (status, categoria, agente, empresa, prioridade e período) para ganho de produtividade.
+
+**Requisitos não funcionais trabalhados como entregáveis do produto:**
+
+- Documentação de API
+- Guia do usuário (User Guide)
+- Design de banco
+- Uso de banco não relacional (para partes do domínio)
+- Conformidade LGPD
+
+**Tecnologias:** Projeto full-stack com stack descrito no repositório:  
+Back-end: Java + Spring Boot (Spring Security, Spring Web), Swagger, JWT, JUnit; além de Python e MongoDB; Docker e Vault.  
+Front-end: TypeScript, Vue.js, PrimeVue, Axios, Vitest. (Estrutura com submódulos de `ai-server`, `web-server` e `web-client`).
+
+**Link:** https://github.com/manolito-fatec/pardal-2025
+
+**Contribuições Pessoais:** Julio Freitas atuou como **Product Owner**. Além de conduzir backlog/sprints e alinhar critérios de aceitação, teve participação decisiva em transformar **LGPD em funcionalidade de produto** (e não só em documentação): refinou requisitos de anonimização (Regex + NLP), priorizou histórias ligadas a governança de dados, controle de acesso e rastreabilidade, e garantiu que entregáveis como documentação/guia do usuário e requisitos não funcionais estivessem amarrados ao valor para operação e para o cliente. Esse projeto reforçou prática de PO em contexto de produto com segurança e conformidade como eixo central.
+
+---
+
+As informações apresentadas sobre cada projeto foram baseadas nos repositórios de código correspondentes no GitHub e em documentos fornecidos pelas equipes de desenvolvimento. Em especial, conceitos relacionados ao Dom Rock Pipeline foram fundamentados em materiais da plataforma Dom Rock. O Projeto 6 (Pardal) foi descrito a partir das especificações e documentação do repositório correspondente.
