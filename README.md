@@ -1,3 +1,5 @@
+<img src="PORTIFOLIOFOTOJULIO.jpg">
+
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em junho de 2026.
 
