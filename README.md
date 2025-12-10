@@ -1,181 +1,405 @@
-# Portfólio de Projetos Integradores — CST Banco de Dados (FATEC)
+<img src="img/profile.png">
 
-## Introdução
+<h2>Introdução</h2>
+Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em junho de 2026.
 
-Este trabalho apresenta a trajetória de desenvolvimento de projetos integradores ao longo do curso Superior de Tecnologia em Banco de Dados – FATEC, evidenciando a aplicação prática dos conhecimentos adquiridos. Será descrito o perfil do aluno, suas principais competências técnicas em Banco de Dados e áreas afins, e uma síntese dos projetos desenvolvidos em cada semestre do curso. Cada projeto é detalhado com contexto, objetivos, funcionalidades implementadas, tecnologias utilizadas, bem como as contribuições pessoais do aluno em cada caso. O projeto Stratify corresponde ao Trabalho de Graduação (TG) e é descrito de forma mais abrangente por sua importância e complexidade no fechamento do curso. Além disso, inclui-se o Projeto 6 (Pardal), que reforça experiência em Product Ownership e aplicação prática de LGPD como requisito de produto.
+Minha trajetória profissional atual é como <strong>Técnico de Dados na Diretoria Regional Sudeste da Ambev</strong>. No meu dia a dia, atuo com o ecossistema Microsoft, desenvolvendo soluções com <strong>Power BI</strong> e <strong>PowerApps</strong>, integrados a <strong>Python</strong> e <strong>SQL</strong> para manipulação e análise de dados.
 
-## Perfil
+Meu objetivo futuro é migrar para a área de gestão corporativa, atuando como Especialista de Gestão, unindo minha base técnica de dados com visão estratégica de negócios.
 
-Julio Cesar Ferreira de Freitas é um tecnólogo em Banco de Dados em formação, com interesse focado no desenvolvimento Backend e engenharia de dados. Possui perfil analítico, habilidade em resolver problemas complexos de processamento de dados e experiência em liderança técnica de projetos (atuou como Product Owner em projetos acadêmicos). No decorrer do curso, demonstrou capacidade de aplicar conceitos de modelagem de banco de dados, programação e inteligência de negócios na criação de soluções computacionais. O profissional preza por boas práticas de codificação, organização de equipes utilizando metodologias ágeis e melhoria contínua de processos.
+<h2>Contato</h2>
 
-## Conhecimentos
+[GITHUB](https://github.com/juliofreitaass)
 
-O aluno desenvolveu um conjunto sólido de habilidades técnicas e teóricas ao longo do curso, destacando-se em linguagens de programação, bancos de dados, ferramentas de desenvolvimento e metodologias ágeis. A tabela a seguir resume as principais competências:
-
-| Competência | Detalhamento |
-|---|---|
-| Linguagens de Programação | Java (experiência em APIs RESTful, projetos integradores em Spring Boot), Python (desenvolvimento de aplicações e scripts de automatização), JavaScript (Node.js para serviços backend e uso em configurações de pipelines). |
-| Banco de Dados | Modelagem de dados relacional (MER, DER), SQL avançado (procedures, funções), experiência com SGBDs MySQL e PostgreSQL, conhecimento de NoSQL básico. |
-| Tecnologias e Ferramentas | Git/GitHub (controle de versão em equipe), Docker (contêinerização de aplicações), APIs REST, JSON, ferramentas de integração contínua. |
-| Metodologias Ágeis | Scrum e Kanban (atuações como desenvolvedor e Product Owner, gestão de backlog, sprints, reuniões diárias e retrospectivas para garantir entregas contínuas). |
-| Outros Conhecimentos | IoT (Internet das Coisas) e protocolos básicos (atuou em projeto de IoT geográfico), conceitos de Big Data e ETL (pipeline de dados automatizado), elaboração de relatórios e dashboards analíticos. |
+[LINKEDIN](www.linkedin.com/in/juliofreitaass)
 
 ---
 
-## Projeto 1: Avaliação 360
+<h2>Meus principais conhecimentos</h2>
+Minha experiência combina forte atuação técnica em Back-end e Dados com habilidades de gestão de produtos (Product Owner).
 
-**Empresa/Cliente:** Setor de Recursos Humanos de uma empresa fictícia (caso de uso acadêmico).
-
-**Problema:** A organização necessitava de uma ferramenta para realizar avaliações de desempenho 360° de seus colaboradores de forma eficiente. O método de feedback 360 graus proporciona uma visão completa do desempenho, coletando avaliações de líderes, pares e subordinados (referência: rh360graus.com.br). Antes do projeto, esse processo era moroso e realizado manualmente, dificultando a consolidação dos dados e o retorno aos colaboradores.
-
-**Objetivo:** Desenvolver uma aplicação web que automatize o processo de avaliação 360° de desempenho. A solução deveria permitir que cada colaborador fosse avaliado por múltiplas pessoas (superiores, colegas e subordinados), consolidando essas percepções em relatórios claros. Buscou-se facilitar o registro de feedbacks anônimos, cálculo de métricas de desempenho e identificação de pontos fortes e a melhorar de cada funcionário. Ao final, a ferramenta visou agilizar o ciclo de avaliação de pessoal, fornecendo aos gestores informações ricas para tomadas de decisão sobre treinamento, promoção e melhorias organizacionais.
-
-**Funcionalidades:** Dentre as principais funcionalidades implementadas destacam-se:
-
-- Cadastro de colaboradores e definição das relações hierárquicas (quem avalia quem).
-- Distribuição e preenchimento de formulários de avaliação qualitativa e quantitativa (competências, comportamento, resultados).
-- Consolidação automática dos feedbacks recebidos em uma visão 360 graus para cada avaliado, incluindo cálculo de médias de notas, agregação de comentários e identificação de discrepâncias.
-- Geração de dashboards e relatórios gráficos interativos para gestores visualizarem o desempenho individual e da equipe. Esses painéis apresentam, por exemplo, comparativos de autoavaliação vs. avaliação por pares, histogramas de notas e tendências gerais.
-- Controle de acesso com diferentes perfis (avaliador, avaliado, administrador de RH) garantindo confidencialidade dos feedbacks e acesso apenas às informações pertinentes a cada usuário.
-
-**Tecnologias:** O projeto foi desenvolvido principalmente em Python, aproveitando frameworks web para agilizar a construção da aplicação (por exemplo, Django, para estrutura MVC, e bibliotecas de gráficos para os dashboards). Utilizou-se JavaScript no front-end para tornar as interfaces interativas e responsivas. O banco de dados relacional (MySQL) armazena as informações de funcionários, vínculos de avaliação e resultados. Controle de versão foi feito no GitHub (organização wiz-fatec).
-
-**Link:** Repositório GitHub – `wiz-fatec/avaliacao-360`.
-
-**Contribuições Pessoais:** Atuando como Desenvolvedor Backend, Julio Freitas foi responsável por implementar funcionalidades críticas do lado do servidor. Ele desenvolveu a lógica de consolidação dos dados de avaliação, garantindo o cálculo correto de métricas (médias ponderadas de notas, percentuais) e a anonimização dos feedbacks antes da visualização pelos avaliados. Além disso, contribuiu significativamente na criação do dashboard administrativo, programando gráficos e relatórios gerenciais. Julio também integrou o sistema de autenticação e controle de permissões, assegurando que cada gestor pudesse ver relatórios apenas de sua equipe. Seu trabalho envolveu interação constante com o banco de dados (consultas SQL otimizadas para extrair agregados de avaliação) e integração com o front-end para exibir os resultados de forma amigável. Ademais, participou dos testes funcionais, validando que o fluxo de avaliação 360° estava consistente com os requisitos do projeto.
+| Nome da Tecnologia | Breve Descrição |
+| :--- | :--- |
+| Java | Linguagem de programação utilizada para desenvolvimento backend e APIs. |
+| Python | Utilizado tanto para scripts de automação e dados na Ambev quanto em projetos acadêmicos. |
+| SQL | Linguagem de consulta estruturada para manipulação e extração de dados. |
+| Power BI | Ferramenta de Business Intelligence da Microsoft para visualização de dados. |
+| PowerApps | Plataforma de desenvolvimento de aplicativos de baixo código da Microsoft. |
+| Spring Boot | Framework Java para facilitar a criação de aplicações stand-alone e robustas. |
+| PostgreSQL | Sistema gerenciador de banco de dados relacional. |
+| Git/GitHub | Sistema de controle de versão e plataforma de hospedagem de código. |
+| Figma | Ferramenta de design de interfaces, utilizada para prototipagem e wireframes. |
+| Scrum | Metodologia ágil para gestão e planejamento de projetos de software. |
 
 ---
 
-## Projeto 2: TG Manager
+<h2>Minhas principais experiências</h2>
+Minha trajetória profissional é marcada pela atuação direta na área de Dados e Inteligência de Negócio (BI) em um ambiente corporativo de grande porte. Diferente de um perfil puramente de desenvolvimento de software, minha experiência foca na transformação de dados brutos em ferramentas de gestão estratégica.
 
-**Empresa/Cliente:** Coordenação do curso de Banco de Dados da FATEC (uso interno acadêmico).
+Atualmente, atuo na <strong>Diretoria Regional Sudeste da Ambev</strong>, onde desenvolvo soluções que suportam a tomada de decisão da liderança. Minha vivência prática envolve:
 
-**Problema:** A coordenação enfrentava dificuldades para compilar e acompanhar os resultados das avaliações dos Trabalhos de Graduação (TG) dos alunos. As notas e feedbacks dos projetos finais eram coletados via formulários separados, tornando complexo o gerenciamento das entregas parciais e a identificação de alunos aptos à defesa. Havia necessidade de organizar essas informações de modo centralizado, facilitando a atribuição de notas pelos professores orientadores e avaliadores, além de gerar relatórios para tomada de decisão sobre aprovações.
+- <strong>Análise e Visualização de Dados:</strong> Desenvolvimento e manutenção de dashboards complexos utilizando <strong>Power BI</strong>. Atuo na criação de indicadores (KPIs) visuais que permitem à diretoria monitorar o desempenho regional de forma ágil e assertiva.
 
-**Objetivo:** Desenvolver uma API e aplicação backend que importe os dados de avaliações de TG a partir de um arquivo CSV e auxilie na gestão do processo de Trabalho de Graduação. A solução objetiva facilitar a visualização dos dados de avaliação e permitir a inclusão de notas e feedbacks pelos professores de forma estruturada. Espera-se também automatizar o agendamento das etapas de entrega e apresentação do TG, definindo quantas entregas parciais haverá e calculando médias de notas conforme essas etapas. Por fim, a ferramenta deve gerar relatórios consolidados para a coordenação, indicando, por exemplo, quais alunos estão aptos a defender o TG e quais informações devem ser repassadas à banca examinadora.
+- <strong>Desenvolvimento Low-Code e Aplicações Corporativas:</strong> Utilizo <strong>Power Apps</strong> para criar aplicativos internos que digitalizam processos, coletam dados em campo e automatizam fluxos de trabalho que antes eram manuais ou baseados em planilhas.
 
-**Funcionalidades:** A aplicação TG Manager contempla diversas funcionalidades alinhadas aos objetivos propostos:
+- <strong>Engenharia de Dados e Scripting:</strong> Aplico <strong>Python</strong> e <strong>SQL</strong> diariamente para a extração, tratamento e manipulação de bases de dados. Crio scripts que integram diferentes fontes de informação, garantindo a integridade e a atualização constante dos relatórios gerenciais.
 
-- **Importação de CSV:** Upload de um arquivo “.csv” contendo as respostas de formulários preenchidos pelos alunos sobre seus TGs, populando automaticamente o sistema com esses dados brutos.
-- **Gerenciamento de Entregas:** Configuração do número de entregas parciais que compõem o TG e agendamento das datas correspondentes, permitindo controlar prazos e etapas do projeto.
-- **Atribuição de Notas e Feedbacks:** Interface para que professores insiram nota e feedback qualitativo para cada aluno em cada entrega/apresentação realizada.
-- **Cálculo de Médias:** Cálculo automático da média final de cada aluno com base nas notas das várias entregas definidas, seguindo regra de negócio (média aritmética ou ponderada).
-- **Relatórios Automatizados:** Relatório individual do aluno, relatório geral da turma e relatório de alunos aptos à defesa, incluindo dados como orientador e média final.
+- <strong>Visão de Negócio e Gestão:</strong> Minha atuação não é apenas técnica; participo ativamente do entendimento das dores do negócio, traduzindo necessidades de gestão em soluções tecnológicas eficientes.
 
-**Tecnologias:** Implementado em Java com Spring Boot (API REST), persistência em PostgreSQL, arquitetura em camadas (controllers/services/repositories), parsing de CSV com bibliotecas Java, testes unitários e de integração. Repositório sob organização wiz-fatec (api-2BD).
+<br>
 
-**Link:** Repositório GitHub – `wiz-fatec/api-2BD` (TG Manager).
+<h2 style="text-align: center;">💻PROJETOS API Fatec</h2>
 
-**Contribuições Pessoais:** Como Desenvolvedor Backend, Julio Freitas implementou o módulo de importação de CSV (leitura, validações, tratamento de erros e persistência). Também criou endpoints para cadastro de entregas e registro de notas/feedbacks, além das regras de negócio para cálculo de média e identificação de aprovados. Participou da lógica de geração dos relatórios e apoiou qualidade do código (tratamento de exceções, ajustes e estabilidade), interagindo com o time em revisões e melhorias no modelo/consultas.
+<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360° (2023-1)</h2>
 
----
+<h3>Empresa</h3>
+Trabalho realizado como Projeto Interno, tendo o Professor Lucas Nadalete como Cliente Principal.
 
-## Projeto 3: Dom Rock Pipeline Configurator
+<h3>Problema</h3>
+A instituição de ensino PBLTeX adotou a metodologia de ensino baseada em problemas (PBL), que exige avaliações constantes entre pares. No entanto, a aplicação manual da "Avaliação 360º" gerava um gargalo operacional significativo: a coleta de dados era fragmentada, o cálculo de métricas de desempenho individual e grupal era suscetível a erros humanos e não havia uma forma centralizada de visualizar a evolução dos alunos ao longo do tempo.
 
-**Empresa/Cliente:** Dom Rock Enterprise (parceira acadêmica) – empresa da área de Big Data e Inteligência Artificial.
+<h3>Objetivo da aplicação</h3>
+O objetivo foi desenvolver uma solução desktop robusta que digitalizasse todo o fluxo da Avaliação 360º. O sistema precisava garantir o anonimato necessário para avaliações honestas, automatizar o cruzamento de notas (autoavaliação vs. avaliação do grupo) e fornecer aos administradores dashboards intuitivos para monitoramento de turmas, eliminando o uso de planilhas manuais e aumentando a confiabilidade dos dados pedagógicos.
 
-**Problema:** A criação e manutenção de pipelines de dados (ETL/ELT) costuma exigir esforço manual, especialistas e tempo. A demanda simulada do projeto foi reduzir atrito, permitindo configurar pipelines de forma visual, rápida e padronizada, diminuindo o tempo entre dado bruto e geração de valor.
+<h3>Funcionalidades</h3>
 
-**Objetivo:** Desenvolver uma aplicação web para configurar pipelines de dados da plataforma Dom Rock, permitindo definir fontes, transformações e destinos por UI (arrastar-e-soltar), gerando configurações para execução automatizada, alinhado à abordagem Setup & Run.
+<h4>Perfil: Aluno</h4>
+<ul>
+  <li><strong>Sistema de Login Seguro:</strong> Acesso individualizado para garantir a integridade e sigilo das avaliações.</li>
+  <li><strong>Interface de Avaliação:</strong> Módulo para realização de autoavaliação e avaliação de pares (membros do grupo).</li>
+  <li><strong>Dashboard de Feedback:</strong> Visualização de gráficos de desempenho baseados nas médias recebidas.</li>
+</ul>
 
-**Funcionalidades:**
+<h4>Perfil: Administrador</h4>
+<ul>
+  <li><strong>Gestão Acadêmica:</strong> Ferramentas para cadastro e organização de alunos, formação de grupos e criação de turmas.</li>
+  <li><strong>Configuração de Ciclos:</strong> Definição de sprints e períodos de avaliação.</li>
+  <li><strong>Painel de Resultados:</strong> Dashboards gerenciais que consolidam o desempenho de turmas inteiras e grupos específicos.</li>
+</ul>
 
-- Catálogo de fontes e destinos (CSV, banco, APIs; Data Lake/BI).
-- Editor visual de pipeline (componentes encadeados por etapas).
-- Biblioteca de transformações (filtros, agregações, joins, limpeza).
-- Validação e geração de configuração/deploy automatizado.
-- Monitoramento de execução (status, volume, logs).
+<h3>Contribuições Pessoais</h3>
+Atuei no <strong>Back-end</strong> do projeto, focado na lógica de programação e manipulação de dados para garantir que as avaliações fossem processadas corretamente.
 
-**Tecnologias:** Front-end em Vue.js; back-end em Node.js (Express); armazenamento das configurações em MongoDB; Docker para ambiente; GitHub para versionamento e issues.
+<details>
+<summary>Lógica de Processamento de Avaliações</summary>
+Fui responsável pela implementação das funções em Python que capturam as notas inseridas na interface e realizam o cálculo das médias. Desenvolvi a lógica que diferencia a autoavaliação da avaliação de pares, garantindo que os dados fossem persistidos corretamente na estrutura de dados do projeto para posterior geração de relatórios.
+</details>
 
-**Link:** Repositório GitHub – `wiz-fatec/dom-rock-pipeline-configurator`.
+<details>
+<summary>Integração Back-end</summary>
+Trabalhei na conexão entre as interfaces desenhadas (Views) e o código de processamento (Controllers). Assegurei que, ao clicar em "Enviar Avaliação", o sistema validasse os campos obrigatórios e armazenasse a informação sem perdas, tratando possíveis erros de entrada do usuário.
+</details>
 
-**Contribuições Pessoais:** Julio Freitas atuou como Product Owner, traduzindo necessidades em backlog, priorizando entregas por sprint e definindo user stories/aceites. Participou das decisões técnicas (stack e arquitetura) e validou a usabilidade do configurador. Realizou merges, reviews e conduziu alinhamentos com “cliente” (simulado), garantindo foco em valor e entrega demonstrável.
+<br>
 
----
+<h3>Hard Skills</h3>
 
-## Projeto 4: GEO-IOT
+|Nome|Descrição|
+| :--------: | :-------- |
+|Python|Utilizei Python para codificar a lógica por trás das interfaces, garantindo o funcionamento correto das regras de negócio da avaliação 360.|
+|Lógica de Programação|Estruturei algoritmos para o cálculo de médias e consolidação dos resultados das avaliações.|
 
-**Empresa/Cliente:** Projeto interno acadêmico em parceria com laboratório de IoT – FATEC Manolito (interdisciplinar).
+<h3>Soft Skills</h3>
 
-**Problema:** Monitorar sensores distribuídos geograficamente exige coleta, integração e visualização dos dados em tempo real, com localização em mapa e histórico. Sem uma plataforma, acompanhar posição, status e leituras se torna inviável.
-
-**Objetivo:** Criar aplicação web para cadastro de dispositivos IoT com coordenadas, visualização em mapa e atualização em tempo real das leituras, com alertas e histórico analítico.
-
-**Funcionalidades:**
-
-- Cadastro de dispositivos com latitude/longitude e exibição em mapa.
-- Recepção de dados em tempo real via MQTT/HTTP e persistência com timestamp.
-- Painel geográfico: clique no dispositivo → últimos dados e status.
-- Alertas por limites (mudança de cor/realce e notificação).
-- Histórico e relatórios por dispositivo (tabela/gráfico por período).
-
-**Technologias:** Front-end em Vue.js + Mapbox/Leaflet; back-end Node.js (Express) + websockets; broker MQTT e sensores simulados em Python; MongoDB com suporte geoespacial; Docker para ambiente com múltiplos serviços.
-
-**Link:** Repositório GitHub – `manolito-fatec/geo-iot-2024-1`.
-
-**Contribuições Pessoais:** Julio Freitas atuou como Product Owner, definindo escopo, priorizando funcionalidades de maior valor demonstrável e coordenando integração entre mapa, backend, broker MQTT e sensores simulados. Conduziu ritos ágeis, removeu impedimentos, testou o sistema ponta a ponta como usuário final e apoiou documentação de execução para apresentação.
-
----
-
-## Projeto 5: Stratify (Trabalho de Graduação – TG)
-
-**Empresa/Cliente:** Projeto autoral (Trabalho de Graduação) – foco em inteligência de dados para tomada de decisão empresarial.
-
-**Problema:** Organizações acumulam dados, mas ainda sofrem para transformar isso em segmentação útil. A estratificação manual (planilhas/regras ad hoc) é lenta, falha e não captura padrões complexos. A necessidade central foi automatizar segmentação e entregar resultados interpretáveis para negócio.
-
-**Objetivo:** Desenvolver uma API Backend para segmentação/estratificação de dados, integrável a diferentes front-ends/sistemas, com processamento de datasets heterogêneos, execução de algoritmos de clusterização (ex.: K-Means, DBSCAN, hierárquico) e/ou regras de negócio, entrega de métricas e exportações (JSON/CSV), e reprocessamento com novos dados.
-
-**Funcionalidades:**
-
-- Upload de dataset e schema configurável.
-- Trigger de estratificação com parâmetros (algoritmo, `k`, regras).
-- Monitoramento assíncrono por `process_id` e status.
-- Resultados por segmento (tamanho, centroides/descrição, métricas).
-- Export da base com coluna de segmento por registro.
-- Histórico e comparação de segmentações.
-- Segurança (JWT) e isolamento por cliente (multi-tenant).
-
-**Tecnologias:** Python + FastAPI; pandas/numpy/scikit-learn; PostgreSQL (metadados/resultados) + MongoDB (dados brutos); Celery + Redis (tarefas); Apache Spark (opcional p/ volume); Docker/Compose; OpenAPI/Swagger; CI no GitHub.
-
-**Link:** GitHub – `QuantumBitBR/API_5SEM` e `QuantumBitBR/API_5SEM_BACK`.
-
-**Contribuições Pessoais:** Julio Freitas liderou o backend, desenhando arquitetura modular (ingestão/processamento/resultados), implementando algoritmos (K-Means com pré-processamento e métricas como silhouette), criando endpoints REST com paginação e erros claros, configurando processamento assíncrono com Celery/Redis, integrando PostgreSQL/MongoDB com otimizações e implementando JWT e infraestrutura via Docker/Compose. Também estruturou testes e documentação técnica (README e especificação de endpoints).
+|Nome|Descrição|
+| :--------: | :-------- |
+|Trabalho em Equipe|Colaboração com a equipe de front-end para integrar a lógica matemática com as telas visuais.|
+|Resolução de Problemas|Capacidade de transformar a regra complexa da metodologia 360º em algoritmos funcionais.|
 
 ---
 
-## Projeto 6: Pardal (6º semestre) — Gestão de Tickets + LGPD como Produto
+<h2 style="text-align: center;">Projeto: Sistema TG Manager (2023-2)</h2>
 
-**Empresa/Cliente:** Cliente parceiro do projeto integrador (contexto acadêmico) com operação de suporte/tickets.
+<h3>Empresa</h3>
+Trabalho realizado como Projeto Interno, tendo o Professor Emanuel Mineda como Cliente Principal.
 
-**Problema:** O cliente enfrentava controle manual de tickets em base legada, ausência de histórico consolidado e falta de indicadores de performance para apoiar decisões. Além disso, existia risco real de armazenamento indevido de dados pessoais/sensíveis (especialmente em campos de texto livre), exigindo conformidade prática com LGPD.
+<h3>Problema</h3>
+A gestão dos Trabalhos de Graduação (TG) envolvia o recebimento de múltiplos formulários e arquivos CSV desconexos. O professor orientador enfrentava dificuldades para rastrear quais alunos já haviam realizado entregas, consolidar feedbacks e calcular as notas finais baseadas em critérios variáveis. A falta de um sistema centralizado resultava em falhas de comunicação e perda de produtividade na administração acadêmica.
 
-**Objetivo:** Centralizar e otimizar um sistema de gestão de tickets de suporte, elevando organização, tempo de resposta e visibilidade operacional, ao mesmo tempo em que o produto incorpora LGPD como requisito central (não “checklist”), reduzindo risco de persistir dados pessoais/sensíveis e melhorando governança e transparência do processo.
+<h3>Objetivo da aplicação</h3>
+Desenvolver o "TG Manager", uma aplicação Java capaz de importar e interpretar grandes volumes de dados via arquivos CSV. O sistema visa automatizar a criação de registros de alunos e turmas, permitir o agendamento e controle de entregas parciais e gerar, de forma automática, relatórios de feedback em PDF. A meta principal era reduzir o tempo administrativo do professor e garantir transparência nas avaliações.
 
-**Funcionalidades (principais épicos e entregas):**
+<h3>Funcionalidades</h3>
+<ul>
+  <li><strong>Importação em Lote:</strong> Funcionalidade para leitura e processamento de arquivos ".csv" contendo dados dos alunos e respostas de formulários.</li>
+  <li><strong>Gestão de Cronograma:</strong> Definição da quantidade de entregas parciais e agendamento de datas limite (deadlines).</li>
+  <li><strong>Avaliação e Feedback:</strong> Interface para atribuição de notas e inserção de comentários qualitativos por entrega.</li>
+  <li><strong>Motor de Relatórios:</strong> Geração automática de PDFs individuais (boletim do aluno) e relatórios gerais (visão da turma).</li>
+  <li><strong>Lista de Aptidão:</strong> Relatório específico que cruza dados para identificar alunos aptos à defesa do TG.</li>
+</ul>
 
-- **LGPD Modernization (Admin):** identificação e **anonimização automática** de dados pessoais e sensíveis em campos de texto livre (título/descrição/comentários). Uso de **Regex** para dados estruturados (ex.: CPF, e-mail, telefone) e integração com serviço **NLP** para análise semântica de sensíveis (ex.: saúde, religião, opinião política).
-- **Insights (Gestão):** componente analítico que gera insights automaticamente (padrões de recorrência, categorias críticas e aderência a SLA), apoiando decisão e eficiência.
-- **Dashboards (Gestão):** indicadores (KPIs) como total de tickets, tempo médio de resolução, recorrência e SLA, com filtros por período, agente, empresa, categoria e prioridade.
-- **User Management (Admin):** gestão de usuários (criar/editar/desativar e perfis/roles) para controle de acesso.
-- **Ticket Search (Operação):** busca avançada com filtros (status, categoria, agente, empresa, prioridade e período) para ganho de produtividade.
+<h3>Contribuições Pessoais</h3>
+Atuei como desenvolvedor <strong>Back-end</strong>, trabalhando com Java e manipulação de arquivos CSV.
 
-**Requisitos não funcionais trabalhados como entregáveis do produto:**
+<details>
+<summary>Tratamento e Importação de CSV</summary>
+Implementei a lógica de leitura dos arquivos `.csv` provenientes dos formulários. Desenvolvi o parser que lê linha a linha, identifica os campos (Aluno, Orientador, Tipo de TG) e popula os objetos Java correspondentes. Essa etapa foi crucial para transformar dados brutos em informações estruturadas dentro do sistema.
+</details>
 
-- Documentação de API
-- Guia do usuário (User Guide)
-- Design de banco
-- Uso de banco não relacional (para partes do domínio)
-- Conformidade LGPD
+<details>
+<summary>Estrutura de Classes (Model)</summary>
+Colaborei na criação das classes de Modelo (Entities) que representam o negócio, como `Aluno`, `Turma` e `Avaliacao`. Defini os atributos e métodos necessários para suportar as operações de CRUD e atribuição de notas.
+</details>
 
-**Tecnologias:** Projeto full-stack com stack descrito no repositório:  
-Back-end: Java + Spring Boot (Spring Security, Spring Web), Swagger, JWT, JUnit; além de Python e MongoDB; Docker e Vault.  
-Front-end: TypeScript, Vue.js, PrimeVue, Axios, Vitest. (Estrutura com submódulos de `ai-server`, `web-server` e `web-client`).
+<br>
 
-**Link:** https://github.com/manolito-fatec/pardal-2025
+<h3>Hard Skills</h3>
 
-**Contribuições Pessoais:** Julio Freitas atuou como **Product Owner**. Além de conduzir backlog/sprints e alinhar critérios de aceitação, teve participação decisiva em transformar **LGPD em funcionalidade de produto** (e não só em documentação): refinou requisitos de anonimização (Regex + NLP), priorizou histórias ligadas a governança de dados, controle de acesso e rastreabilidade, e garantiu que entregáveis como documentação/guia do usuário e requisitos não funcionais estivessem amarrados ao valor para operação e para o cliente. Esse projeto reforçou prática de PO em contexto de produto com segurança e conformidade como eixo central.
+|Nome|Descrição|
+| :--------: | :-------- |
+|Java|Linguagem principal utilizada para o desenvolvimento da lógica do servidor e regras de negócio.|
+|Manipulação de Arquivos|Implementação de rotinas para leitura e tratamento de dados de arquivos externos (I/O).|
+
+<h3>Soft Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Organização|Estruturação do código para lidar com múltiplas fontes de dados de forma limpa.|
+|Atenção aos Detalhes|Garantia de que nenhum dado crítico fosse perdido durante a importação massiva de CSVs.|
 
 ---
 
-As informações apresentadas sobre cada projeto foram baseadas nos repositórios de código correspondentes no GitHub e em documentos fornecidos pelas equipes de desenvolvimento. Em especial, conceitos relacionados ao Dom Rock Pipeline foram fundamentados em materiais da plataforma Dom Rock. O Projeto 6 (Pardal) foi descrito a partir das especificações e documentação do repositório correspondente.
+<h2 style="text-align: center;">Projeto: Dom Rock Pipeline Configurator (2024-1)</h2>
+
+<h3>Empresa</h3>
+Dom Rock.
+
+<h3>Problema</h3>
+A empresa Dom Rock possuía uma arquitetura de dados sofisticada, mas o processo de configuração de novas fontes de dados (Pipeline) era manual, lento e dependente de técnicos seniores. Isso gerava um gargalo na implantação de soluções para novos clientes, além de aumentar o risco de erros humanos na definição de metadados e regras das camadas LZ, Bronze e Silver.
+
+<h3>Objetivo da aplicação</h3>
+Criar uma interface web intuitiva que democratizasse a configuração de pipelines. A aplicação deveria permitir que usuários com diferentes níveis de permissão fizessem o upload de arquivos, definissem tipagens de dados e regras de negócio visualmente. O objetivo final era reduzir a dependência técnica, acelerar o *time-to-market* das implantações e garantir a validação automática dos dados na entrada.
+
+<h3>Funcionalidades</h3>
+
+<h4>Configuração Landing Zone (LZ)</h4>
+<ul>
+  <li><strong>Upload e Setup:</strong> Importação de arquivos (CSV/Excel) e configuração visual de metadados (frequência, origem).</li>
+  <li><strong>Mapeamento Inicial:</strong> Definição de tipos de dados (int, string), tratamento de nulos e regras de negócio básicas.</li>
+</ul>
+
+<h4>Refino Bronze e Transformação Silver</h4>
+<ul>
+  <li><strong>Definição de Chaves:</strong> Configuração de chaves primárias e identificadores únicos para as tabelas.</li>
+  <li><strong>Mapeamento De/Para:</strong> Ferramenta para tradução de valores (ex: converter código "1" para "Bom").</li>
+</ul>
+
+<h4>Administração e Governança</h4>
+<ul>
+  <li><strong>Gestão de Acessos (RBAC):</strong> Cadastro de usuários com permissões granulares por etapa do pipeline.</li>
+  <li><strong>Auditoria:</strong> Logs detalhados de quem alterou qual configuração e quando.</li>
+</ul>
+
+<h3>Contribuições Pessoais</h3>
+Neste projeto, assumi a função de <strong>Product Owner (PO)</strong>, focando na gestão do produto e qualidade.
+
+<details>
+<summary>Gestão de Backlog e Requisitos</summary>
+Como PO, fui responsável pela tradução das necessidades técnicas complexas da Dom Rock em User Stories compreensíveis para o time. Gerenciei o backlog no Jira/Trello, priorizando as funcionalidades de configuração das camadas Bronze e Silver para garantir entregas de valor a cada Sprint.
+</details>
+
+<details>
+<summary>Garantia de Qualidade (QA)</summary>
+Atuei fortemente na validação das entregas. Realizei testes manuais exaustivos na aplicação para garantir que o fluxo de configuração de dados (upload -> validação -> mapeamento) estivesse livre de erros. Reportei bugs e acompanhei as correções junto aos desenvolvedores, garantindo a estabilidade do sistema entregue.
+</details>
+
+<br>
+
+<h3>Hard Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Gestão de Backlog|Priorização e organização de tarefas utilizando Jira/Trello.|
+|Testes Manuais|Validação funcional e de usabilidade das entregas da equipe.|
+
+<h3>Soft Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Liderança|Condução do time na direção correta para atender às expectativas do cliente.|
+|Visão Analítica|Capacidade de testar a aplicação sob a ótica do usuário final para garantir a usabilidade.|
+
+---
+
+<h2 style="text-align: center;">Projeto: GEO-IOT (2024-2)</h2>
+
+<h3>Empresa</h3>
+IOT1.
+
+<h3>Problema</h3>
+A IOT1 enfrentava um desafio de Big Data: a necessidade de ingerir, processar e visualizar mais de 500.000 registros de geolocalização em tempo real. O sistema anterior não oferecia performance adequada para consultas espaciais, e a visualização desses dados era precária, dificultando a análise de trajetórias, pontos de parada e o comportamento dos dispositivos rastreados.
+
+<h3>Objetivo da aplicação</h3>
+Desenvolver uma plataforma de alta performance focada em inteligência geoespacial. O sistema deveria suportar carga massiva de dados, oferecendo uma API robusta para consultas e um Frontend interativo. O objetivo era permitir que o usuário final visualizasse rotas no mapa, filtrasse dispositivos por período e identificasse padrões de movimentação com fluidez e precisão visual.
+
+<h3>Funcionalidades</h3>
+<ul>
+  <li><strong>Gestão de Dispositivos e Usuários:</strong> CRUD completo com controle de acesso para administração de sensores IoT.</li>
+  <li><strong>Visualização Geoespacial:</strong> Mapa interativo com plotagem de rotas, pontos de parada e trajetórias.</li>
+  <li><strong>Playback de Movimentação:</strong> Controle temporal ("player" de vídeo) para assistir ao histórico de deslocamento de um dispositivo.</li>
+  <li><strong>Filtros Avançados:</strong> Busca refinada por tipo de objeto (veículo/pessoa), data, hora e origem do dado.</li>
+</ul>
+
+<h3>Contribuições Pessoais</h3>
+Atuei como <strong>Product Owner (PO)</strong> e Liderei a frente de <strong>Design (UI/UX)</strong>.
+
+<details>
+<summary>Prototipagem e Design Completo</summary>
+Fui responsável pela criação de todo o design da aplicação. Utilizei o Figma para desenvolver protótipos de alta fidelidade que definiam não apenas a estética, mas a usabilidade dos mapas interativos e dashboards. Projetei a experiência do usuário para a visualização de rotas e pontos de parada, entregando ao time de front-end um guia visual claro e funcional.
+</details>
+
+<details>
+<summary>Definição de Regras de Negócio Geoespaciais</summary>
+Trabalhei na especificação das regras de negócio junto ao cliente IOT1. Defini como o sistema deveria interpretar os dados de latitude/longitude para considerar um "ponto de parada" ou "movimentação", documentando essas regras para que o time de backend pudesse implementar a lógica de processamento correta.
+</details>
+
+<br>
+
+<h3>Hard Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Figma|Criação completa do design system, wireframes e interfaces da aplicação.|
+|Gestão de Requisitos|Tradução de necessidades técnicas em documentação funcional.|
+
+<h3>Soft Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Empatia com o Usuário|Foco na UX para tornar a visualização de mapas complexos algo intuitivo.|
+|Negociação|Alinhamento de expectativas entre cliente e equipe técnica.|
+
+---
+
+<h2 style="text-align: center;">Projeto: Stratify - Dashboard de Indicadores (2025-1)</h2>
+
+<h3>Empresa</h3>
+YOUTAN.
+
+<h3>Problema</h3>
+A Youtan utilizava o Taiga para gestão de tarefas, mas a ferramenta não fornecia nativamente relatórios gerenciais detalhados. Havia falta de visibilidade sobre produtividade, retrabalho e métricas estratégicas, dificultando a tomada de decisão pelos gestores.
+
+<h3>Objetivo da aplicação</h3>
+O objetivo foi desenvolver a plataforma **Stratify**, uma solução web integrada ao banco de dados do Taiga. O sistema consolida e apresenta indicadores de desempenho através de dashboards interativos, com controle de acesso granular (Operador, Gestor, Admin). A plataforma visa facilitar a visualização e o monitoramento do progresso dos projetos, tornando o processo mais eficiente, transparente e acessível.
+
+<h3>Funcionalidades</h3>
+<ul>
+  <li><strong>Monitoramento de Sprints:</strong> Visualização gráfica do volume de trabalho planejado vs. executado por ciclo.</li>
+  <li><strong>Análise de Throughput:</strong> Comparativo temporal entre cards criados e cards finalizados para medir a vazão do time.</li>
+  <li><strong>Indicadores de Qualidade:</strong> Tabela detalhada de retrabalho e cards devolvidos, permitindo identificar gargalos.</li>
+  <li><strong>Métricas de Tempo:</strong> Cálculo automático do tempo médio (Lead Time) gasto por User Story.</li>
+  <li><strong>Gestão Hierárquica:</strong> Controle de acesso onde Gestores visualizam suas equipes e Operadores visualizam apenas suas tarefas.</li>
+</ul>
+
+Link da aplicação: [Repositório GitHub](https://github.com/QuantumBitBR/API_5SEM_BACK)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot">
+        <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+    </div>
+</div>
+
+<br>
+
+<h3>Contribuições Pessoais</h3>
+Neste projeto, retomei a atuação técnica como <strong>Desenvolvedor Back-end</strong>, sendo responsável pela construção da API e lógica dos indicadores.
+
+<details>
+<summary>Lógica dos Indicadores de Desempenho (Endpoints)</summary>
+Desenvolvi os endpoints RESTful que alimentam os gráficos do dashboard. Implementei a lógica de agregação de dados no Spring Boot para calcular métricas complexas, como:
+<ul>
+    <li><strong>Volume por Sprint:</strong> Query que agrupa cards históricos por ID de sprint para análise de capacidade.</li>
+    <li><strong>Throughput (Criados vs Finalizados):</strong> Lógica de filtro temporal que compara a taxa de entrada e saída de tarefas.</li>
+    <li><strong>Análise de Retrabalho:</strong> Algoritmo que identifica e contabiliza tarefas que voltaram para estatus anteriores ou foram reabertas.</li>
+</ul>
+</details>
+
+<details>
+<summary>Gestão de Usuários e Segurança</summary>
+Implementei o módulo de gestão de usuários no back-end. Criei a lógica para o cadastro de novos usuários, reset de senha (com integração de serviço de e-mail) e atribuição de Roles (Admin, Gestor, Operador). Isso garantiu que a API retornasse apenas os dados permitidos para cada nível de acesso logado.
+</details>
+
+<details>
+<summary>Integração com Banco de Dados PostgreSQL</summary>
+Realizei a modelagem e otimização das consultas SQL. Como o dashboard precisa carregar rapidamente, trabalhei na estrutura das queries para extrair dados consolidados de cards, etiquetas e usuários diretamente do banco espelho do Taiga.
+</details>
+
+<br>
+
+<h3>Hard Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Java & Spring Boot|Construção de APIs robustas e escaláveis para suportar a lógica de cálculo de indicadores.|
+|SQL Avançado|Criação de consultas complexas para extração de métricas de produtividade e qualidade.|
+
+<h3>Soft Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Visão de Negócio|Capacidade de traduzir métricas gerenciais abstratas em código e queries funcionais.|
+|Foco em Resultados|Entrega de uma ferramenta que solucionou diretamente a falta de visibilidade da gestão.|
+
+---
+
+<h2 style="text-align: center;">Projeto: PARDAL - Insights e Métricas de Suporte (2025-2)</h2>
+
+<h3>Empresa</h3>
+Pro4tec.
+
+<h3>Problema</h3>
+A Pro4tec possuía um passivo de dados em sistemas legados de chamados de suporte que representava um risco jurídico (devido à falta de adequação à LGPD) e um desperdício de oportunidade estratégica. Os dados continham informações sensíveis de clientes expostas e não geravam nenhum insight para a melhoria dos serviços, devido à dificuldade de processar textos livres e desestruturados.
+
+<h3>Objetivo da aplicação</h3>
+Desenvolver o **PARDAL**, uma solução completa para modernização e inteligência de dados. O sistema tinha a missão dupla de: 1) Garantir conformidade legal, anonimizando dados sensíveis e implementando políticas de retenção; e 2) Gerar valor, utilizando Inteligência Artificial para analisar a causa raiz dos chamados, prever quebras de SLA e fornecer insights prescritivos para a operação de suporte.
+
+<h3>Funcionalidades</h3>
+<ul>
+  <li><strong>Compliance LGPD:</strong> Processo automatizado de anonimização de dados pessoais e gestão de Termos de Uso.</li>
+  <li><strong>Inteligência Artificial:</strong> Módulo que analisa descrições de tickets para identificar causas-raiz e agrupar chamados por temas.</li>
+  <li><strong>Predictive Analytics:</strong> Dashboard com previsão de tickets sob risco de estourar o SLA.</li>
+  <li><strong>Gestão e Exportação:</strong> Controle de usuários, backups seguros e exportação de relatórios em CSV/PDF.</li>
+</ul>
+
+<h3>Contribuições Pessoais</h3>
+Atuei como <strong>Product Owner (PO)</strong>, liderando a definição do produto com foco em <strong>Compliance (LGPD)</strong> e inovação com <strong>IA</strong>.
+
+<details>
+<summary>Especialista em LGPD e Compliance</summary>
+Fui o responsável técnico por traduzir a Lei Geral de Proteção de Dados em requisitos funcionais para o sistema. Defini e documentei as regras para:
+<ul>
+    <li><strong>Anonimização Inteligente:</strong> Regras para identificar e mascarar dados pessoais em campos de texto livre (descrição dos tickets).</li>
+    <li><strong>Backup e Direito ao Esquecimento:</strong> Política de backup que garante que usuários deletados (direito ao esquecimento) não retornem inadvertidamente ao sistema em restaurações.</li>
+    <li><strong>Gestão de Consentimento:</strong> Lógica de obrigatoriedade de aceite dos Termos de Uso e exportação de logs de auditoria para o usuário final.</li>
+</ul>
+</details>
+
+<details>
+<summary>Prototipagem Acelerada com IA</summary>
+Utilizei ferramentas de Inteligência Artificial Generativa para criar wireframes funcionais e até scripts preliminares de Front-end. Isso permitiu entregar ao time de desenvolvimento não apenas um desenho estático, mas uma base de código aproximada da linguagem real, acelerando drasticamente o entendimento da interface e das funcionalidades esperadas.
+</details>
+
+<details>
+<summary>Definição de Fluxos de Auditoria</summary>
+Especifiquei a necessidade e o formato dos logs de auditoria do sistema. Defini que todas as ações críticas (exportação de dados, alteração de usuários) deveriam ser registradas e exportáveis, garantindo rastreabilidade total para conformidade jurídica.
+</details>
+
+<br>
+
+<h3>Hard Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Compliance & LGPD|Conhecimento técnico da legislação para aplicação prática em requisitos de software.|
+|IA Generativa|Uso de ferramentas de IA para otimização de design e geração de código de protótipo.|
+
+<h3>Soft Skills</h3>
+
+|Nome|Descrição|
+| :--------: | :-------- |
+|Pensamento Estratégico|Habilidade de antecipar riscos jurídicos e transformá-los em requisitos de segurança.|
+|Inovação|Capacidade de buscar novas ferramentas (IA) para melhorar a eficiência do processo de design.|
