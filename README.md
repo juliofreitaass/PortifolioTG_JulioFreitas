@@ -1,5 +1,3 @@
-<img src="img/profile.png">
-
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em junho de 2026.
 
@@ -77,6 +75,22 @@ O objetivo foi desenvolver uma solução desktop robusta que digitalizasse todo 
   <li><strong>Painel de Resultados:</strong> Dashboards gerenciais que consolidam o desempenho de turmas inteiras e grupos específicos.</li>
 </ul>
 
+Link da aplicação: [Avaliação 360](https://github.com/wiz-fatec/avaliacao-360)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+        <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="vscode"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
+    </div>
+</div>
+
+<br>
+
 <h3>Contribuições Pessoais</h3>
 Atuei no <strong>Back-end</strong> do projeto, focado na lógica de programação e manipulação de dados para garantir que as avaliações fossem processadas corretamente.
 
@@ -127,6 +141,24 @@ Desenvolver o "TG Manager", uma aplicação Java capaz de importar e interpretar
   <li><strong>Motor de Relatórios:</strong> Geração automática de PDFs individuais (boletim do aluno) e relatórios gerais (visão da turma).</li>
   <li><strong>Lista de Aptidão:</strong> Relatório específico que cruza dados para identificar alunos aptos à defesa do TG.</li>
 </ul>
+
+Link da aplicação: [TG Manager](https://github.com/wiz-fatec/api-2BD)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.postgresql.org/docs/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+    </div>
+</div>
+
+<br>
 
 <h3>Contribuições Pessoais</h3>
 Atuei como desenvolvedor <strong>Back-end</strong>, trabalhando com Java e manipulação de arquivos CSV.
@@ -190,6 +222,31 @@ Criar uma interface web intuitiva que democratizasse a configuração de pipelin
   <li><strong>Auditoria:</strong> Logs detalhados de quem alterou qual configuração e quando.</li>
 </ul>
 
+Link da aplicação: [Dom Rock Pipeline Configurator](https://github.com/wiz-fatec/dom-rock-pipeline-configurator)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <a href="https://flywaydb.org/" target="_blank"><img src="https://img.shields.io/badge/Flyway-CC0500?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway"></a>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
+    </div>
+</div>
+
+<br>
+
 <h3>Contribuições Pessoais</h3>
 Neste projeto, assumi a função de <strong>Product Owner (PO)</strong>, focando na gestão do produto e qualidade.
 
@@ -239,6 +296,31 @@ Desenvolver uma plataforma de alta performance focada em inteligência geoespaci
   <li><strong>Playback de Movimentação:</strong> Controle temporal ("player" de vídeo) para assistir ao histórico de deslocamento de um dispositivo.</li>
   <li><strong>Filtros Avançados:</strong> Busca refinada por tipo de objeto (veículo/pessoa), data, hora e origem do dado.</li>
 </ul>
+
+Link da aplicação: [GEO-IOT](https://github.com/manolito-fatec/geo-iot-2024-1)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.oracle.com/br/cloud/" target="_blank"><img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud"></a>
+        <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
+    </div>
+</div>
+
+<br>
 
 <h3>Contribuições Pessoais</h3>
 Atuei como <strong>Product Owner (PO)</strong> e Liderei a frente de <strong>Design (UI/UX)</strong>.
@@ -291,7 +373,7 @@ O objetivo foi desenvolver a plataforma **Stratify**, uma solução web integrad
   <li><strong>Gestão Hierárquica:</strong> Controle de acesso onde Gestores visualizam suas equipes e Operadores visualizam apenas suas tarefas.</li>
 </ul>
 
-Link da aplicação: [Repositório GitHub](https://github.com/QuantumBitBR/API_5SEM_BACK)
+Link da aplicação: [Stratify](https://github.com/QuantumBitBR/API_5SEM_BACK)
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
@@ -364,6 +446,38 @@ Desenvolver o **PARDAL**, uma solução completa para modernização e inteligê
   <li><strong>Predictive Analytics:</strong> Dashboard com previsão de tickets sob risco de estourar o SLA.</li>
   <li><strong>Gestão e Exportação:</strong> Controle de usuários, backups seguros e exportação de relatórios em CSV/PDF.</li>
 </ul>
+
+Link da aplicação: [PARDAL - Insights e Métricas](https://github.com/manolito-fatec/pardal-2025)
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://yarnpkg.com/" target="_blank"><img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://eclipseide.org/" target="_blank"><img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse IDE"></a>
+        <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+        <a href="https://duckdb.org/" target="_blank"><img src="https://img.shields.io/badge/DuckDB-DD4631?style=for-the-badge&logo=duckdb&logoColor=white" alt="DuckDB"></a>
+        <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+        <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
+        <a href="https://taiga.io/" target="_blank"><img src="https://img.shields.io/badge/Taiga-4E8098?style=for-the-badge&logo=taiga&logoColor=white" alt="Taiga"></a>
+        <a href="https://www.red-gate.com/products/flyway/community/" target="_blank"><img src="https://img.shields.io/badge/Flyway-CC0500?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway"></a>
+        <a href="https://sonarcloud.io/login" target="_blank"><img src="https://img.shields.io/badge/SonarCloud-F37243?style=for-the-badge&logo=sonarcloud&logoColor=white" alt="SonarCloud"></a>
+        <a href="https://jupyter.org/" target="_blank"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook"></a>
+        <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
+   </div>
+</div>
+
+<br>
 
 <h3>Contribuições Pessoais</h3>
 Atuei como <strong>Product Owner (PO)</strong>, liderando a definição do produto com foco em <strong>Compliance (LGPD)</strong> e inovação com <strong>IA</strong>.
